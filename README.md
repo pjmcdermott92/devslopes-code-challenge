@@ -10,3 +10,5 @@ To accomplish the speed, SEO requirements, and ease of expanson in the future, t
 
 - NexJS
 - Sass
+
+NOTE: This is a private prject. All materials are copy (C) 2021 by Devslopes Academy.
