@@ -52,3 +52,47 @@
     color: var(--color-primary-light);
     font-weight: 900;
 }
+
+.blueHeaderBig {
+    font-size: calc(2.4rem + 1.5vw);
+    text-align: center;
+    color: var(--color-primary-light);
+    font-weight: 900;
+}
+
+.paralaxBox {
+    position: relative;
+    padding: 1rem;
+    color: var(--font-color-light);
+    min-height: 250px;
+    background-color: var(--color-red-light);
+
+    &::after {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: {
+            image: url('../../../public/secret-badge.webp');
+            repeat: no-repeat;
+            position: bottom right;
+            size: 30%;
+            attachment: fixed;
+        }
+
+        div { z-index: 1; }
+    }
+
+    h2 {
+        font-size: calc(3.2rem + 1.3vw);
+        font-weight: 900;
+        margin: 0;
+        word-wrap: break-word;
+    }
+
+    h3 {
+        margin: 0;
+        font-size: calc(1.2rem + .5vw);
+    }
+}

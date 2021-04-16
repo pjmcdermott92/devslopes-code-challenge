@@ -6,3 +6,6 @@ export { default as QuestionaireBox } from './QuestionaireBox/QuestionaireBox';
 export { default as HowItWorks } from './HowItWorks/HowItWorks';
 export { default as ClientTestimony } from '../../ClientTestimony/ClientTestimony';
 export { default as TotalValue } from './TotalValue/TotalValue';
+export { default as ParalaxBox } from './ParalaxBox/ParalaxBox';
+export { default as StepCards } from './StepCards/StepCards';
+export { default as Mission } from './Mission/Mission';

@@ -1,0 +1,44 @@
+.stepCardsWrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.stepCard {
+    max-width: 340px;
+    padding: .5rem;
+    background-color: var(--color-grey-light);
+
+    p {
+        margin: 1rem 0;
+        text-align: left;
+        font-size: calc(.85rem + .25vw);
+    }
+
+    h2 {
+        margin: 0 0 2rem;
+        text-align: center;
+        color: var(--color-primary-light);
+        font-weight: 900;
+    }
+
+    h3 {
+        padding: 1rem 0;
+        margin: 1.5rem;
+        border-top: 2px solid var(--color-grey-med);
+        border-bottom: 2px solid var(--color-grey-med);
+        color: var(--color-primary-light);
+        font-weight: 700;
+        text-align: center;
+        font-style: italic;
+    }
+    .image {
+        width: 100%;
+        height: 192px;
+        margin-bottom: 1rem;
+    
+        img { width: 100%; height: 100%; }
+    }
+}
