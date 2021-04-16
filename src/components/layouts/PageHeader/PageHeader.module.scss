@@ -1,0 +1,28 @@
+.pageHeader {
+    position: relative;
+    width: 100%;
+    border-bottom: 2px dashed #FFFFFF25;
+    color: var(--font-color-light);
+    font-size: 1rem;
+    z-index: 5;
+
+}
+
+.headerContainer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.brandWrapper {
+    margin-right: 1rem;
+}
+
+.navLinks {
+    flex-grow: 1;
+    margin-bottom: 1.5rem;
+}

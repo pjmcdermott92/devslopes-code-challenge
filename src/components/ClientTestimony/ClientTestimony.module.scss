@@ -1,0 +1,39 @@
+.testimonyWrapper {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    margin: 1.5rem auto .5rem;
+    padding: 1rem;
+    padding-top: 40px;
+
+    img {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        box-shadow: var(--box-shadow);
+    }
+
+    p { margin: .5rem 0 0; }
+}
+
+.inner {
+    min-height: 100px;
+    padding: 1rem;
+    padding-top: 35px;
+    font-size: .85rem;
+    box-shadow: var(--box-shadow);
+}
+
+.name {
+    font-weight: 700;
+    color: var(--color-primary);
+    text-transform: uppercase;
+}
+
+.highlight {
+    background-color: #F5F59E;
+}

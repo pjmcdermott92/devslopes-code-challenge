@@ -1,0 +1,54 @@
+.aboveFoldWrapper {
+    position: relative;
+    padding: 16rem 1rem 1rem;
+    margin-top: -15rem;
+    margin-bottom: 1rem;
+    background-color: var(--color-primary);
+    background: linear-gradient(to bottom, var(--color-primary) 0%,
+                                var(--color-primary-light) 100%);
+    color: var(--font-color-light);
+
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 3rem;
+        left: 0;
+        background: {
+            image: url('../../../public/waves-bg.svg');
+            repeat: no-repeat;
+            position: bottom;
+        }
+        opacity: 0.05;
+    }
+}
+
+.heroSection {
+    position: relative;
+    font-size: calc(1rem + .25vw);
+    text-align: center;
+    z-index: 1;
+}
+
+.contentWrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    box-shadow: var(--box-shadow);
+}
+
+.innerContent { padding: 1rem 1.5rem; }
+.narrowContent { max-width: 950px; margin: 0 auto; }
+
+.largeText {
+    font-size: calc(1.4rem + .5vw);
+    text-align: center;
+}
+
+.blueHeaderMed {
+    font-size: calc(1.4rem + .5vw);
+    text-align: center;
+    color: var(--color-primary-light);
+    font-weight: 900;
+}

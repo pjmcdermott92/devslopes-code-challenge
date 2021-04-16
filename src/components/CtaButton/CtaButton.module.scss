@@ -1,0 +1,32 @@
+.ctaButton {
+    padding: 1rem 1.5rem;
+    background-color: var(--color-red-med);
+    color: var(--font-color-light);
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 250ms ease-in-out;
+
+    &:hover {
+        background-color: var(--color-red-light);
+    }
+}
+
+.ctaBtnLink, .ctaBtnLink:hover { text-decoration: none; }
+
+.small {
+    font-size: calc(1rem + .5vw);
+    font-weight: 900;
+}
+
+.large {
+    display: block;
+    font-size: calc(2rem + .9vw);
+    font-weight: 900;
+    padding: .25rem;
+}
+
+.subtext {
+    display: block;
+    font-size: calc(.55rem + .2vw);
+}

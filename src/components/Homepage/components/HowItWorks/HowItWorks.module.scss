@@ -1,0 +1,23 @@
+.howItWorks {
+
+    h2 {
+        margin: .5rem 0;
+        font-size: calc(2rem + 2vw);
+        font-weight: 900;
+        line-height: 1.1;
+        text-align: center;
+        color: var(--color-primary-light);
+    }
+
+    h3 {
+        max-width: 850px;
+        margin: 1.5rem auto;
+        font-size: calc(1.2rem + 1.2vw);
+        font-weight: 900;
+        line-height: 1.2;
+        text-align: center;
+        color: var(--color-primary-light);
+    }
+
+    .centerImg { text-align: center; }
+}

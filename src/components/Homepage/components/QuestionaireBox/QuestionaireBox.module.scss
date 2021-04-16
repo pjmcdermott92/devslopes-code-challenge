@@ -1,0 +1,19 @@
+.questionaireBox {
+    width: 100%;
+    max-width: 1000px;
+    margin: 1rem auto;
+    padding: .5rem 1rem;
+    border: 2px solid var(--color-purple-light);
+    background-color: var(--color-blue-light);
+
+    h3 {
+        margin: .5rem 0;
+        font-size: calc(1.3rem + 1.1vw);
+        font-weight: 900;
+        line-height: .9;
+        text-align: center;
+        color: var(--color-primary-light);
+    }
+
+    div { margin: 2rem 0;}
+}

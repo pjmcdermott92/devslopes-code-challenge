@@ -1,0 +1,35 @@
+.questionHeaderWrapper {
+    margin-bottom: 2rem;
+}
+
+.questionMark {
+    display: none;
+    width: 200px;
+    height: 200px;
+    margin-right: 2rem;
+}
+
+.questionHeaderText {
+    padding: 1rem 0;
+    line-height: .95;
+    letter-spacing: -2px;
+    text-align: center;
+    border-top: 2px solid var(--color-grey-med);
+    border-bottom: 2px solid var(--color-grey-med);
+    color: var(--color-primary-light);
+
+    h1, h2, h3 { margin: 0; }
+    h1 {
+        font-size: calc(2.5rem + 2vw);
+        font-weight: 900;
+        color: var(--color-primary);
+    }
+    h2 {
+        font-size: calc(1.2rem + 2vw);
+        font-weight: 700;
+    }
+}
+
+@media (min-width: 768px) {
+    .questionMark { display: block; }
+}

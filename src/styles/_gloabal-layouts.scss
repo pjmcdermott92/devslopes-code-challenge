@@ -1,0 +1,52 @@
+.flex-parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    
+    &.nowrap { flex-wrap: nowrap; }
+    .flex-lg { width: 100%; max-width: 700px; padding: 1rem; }
+    .flex-md { width: 100%; max-width: 450px; padding: 1rem; }
+    .flex-sm { width: 100%; max-width: 400px; padding: 1rem; }
+    .flex-xs { width: 100%; max-width: 300px; padding: 1rem; }
+    .flex-grow { flex-grow: 1; }
+  }
+  
+  .responsive-item {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* For 16:9 aspect */
+    overflow: hidden;
+    
+    * {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+  
+    iframe { border: none; }
+  }
+  
+  .accent-box {
+    border: 4px solid; width: 100%;
+    margin-bottom: 2rem;
+  
+    .box-header, .box-footer {
+        padding: 1 rem;
+        background-color: var(--color-primary);
+        color: var(--font-color-light);
+        text-align: center;
+  
+        span { display: block;}
+  
+        .header { font-size: calc(2rem + 1.5vw); font-weight: 700; }
+    }
+    
+    &.box-red { border-color: var(--color-red-dark); }
+    &.box-blue { border-color: var(--color-primary); }
+}
