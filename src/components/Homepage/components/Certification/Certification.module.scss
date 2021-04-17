@@ -1,0 +1,16 @@
+.certWrapper {
+    h2 {
+        margin: 0;
+        padding: 0;
+        color: var(--color-primary);
+        text-align: center;
+        font-weight: 900;
+    }
+}
+
+.redCheck {
+    list-style-image: url('../../../../../public/red_check.svg');
+    color: var(--color-primary);
+
+    li { padding: .15rem; }
+}

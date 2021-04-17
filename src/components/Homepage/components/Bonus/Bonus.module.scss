@@ -1,0 +1,30 @@
+.bonusWrapper {
+
+    h2 {
+        margin: 0;
+        padding: 0;
+        color: var(--color-primary);
+        font-weight: 900;
+        font-size: calc(1.2rem + .85vw);
+        text-align: center;
+    }
+
+    p { margin: .75rem; font-size: 1.6rem; }
+}
+
+.bonusSidebar { text-align: center; }
+
+.subText {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: calc(1rem + .5vw);
+    color: var(--color-primary);
+}
+
+.redCheck {
+    list-style-image: url('../../../../../public/red_check.svg');
+    color: var(--color-primary);
+
+    li { padding: .15rem; }
+}

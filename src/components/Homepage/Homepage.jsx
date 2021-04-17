@@ -9,7 +9,9 @@ import {
     TotalValue,
     ParalaxBox,
     StepCards,
-    Mission
+    Mission,
+    Bonus,
+    Cerification
 } from './components';
 import s from './Homepage.module.scss';
 
@@ -65,9 +67,9 @@ const Homepage = () => {
                     subtitle={<h3>Get These AMAZING Bonuses...</h3>}
                     title={<h2 style={{ transform: 'scale(.75)' }}>When You Join The "30 Day Code Challenge" Today...</h2>}
                 />
-
-                
-
+                <Bonus />
+                <Cerification />
+                <CtaButton />
             </div>
         </div>
         </>

@@ -9,3 +9,5 @@ export { default as TotalValue } from './TotalValue/TotalValue';
 export { default as ParalaxBox } from './ParalaxBox/ParalaxBox';
 export { default as StepCards } from './StepCards/StepCards';
 export { default as Mission } from './Mission/Mission';
+export { default as Bonus } from './Bonus/Bonus';
+export { default as Cerification } from './Certification/Certification';
